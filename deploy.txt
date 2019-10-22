@@ -1,0 +1,9 @@
+
+
+EDDI:
+- Create 1GB mongodb PVC
+- Use mongodb template
+- After objects created, change stream to rhel mongodb image
+- Bootup mongodb pod and create eddi database and dbOwner eddi
+- Use eddi dc
+- Create eddi svc for 7070 and expose it 
